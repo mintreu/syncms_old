@@ -10,9 +10,12 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "mintreu/laravel_layout": "dev-main",
-        "mintreu/laravel_sketch": "dev-main",
-        "mintreu/laravel_panel": "dev-main"
+        "livewire/livewire": "^2.10",
+        "mintreu/laravel-layout": "dev-main",
+        "mintreu/laravel-panel": "dev-main",
+        "mintreu/laravel-form": "dev-main",
+        "mintreu/laravel-table": "dev-main",
+        "mintreu/laravel-sketch": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -68,15 +71,23 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/mintreu/laravel_panel"
+            "url": "./packages/mintreu/laravel-panel"
         },
         {
             "type": "path",
-            "url": "./packages/mintreu/laravel_sketch"
+            "url": "./packages/mintreu/laravel-sketch"
         },
         {
             "type": "path",
-            "url": "./packages/mintreu/laravel_layout"
+            "url": "./packages/mintreu/laravel-layout"
+        },
+        {
+            "type": "path",
+            "url": "./packages/mintreu/laravel-form"
+        },
+        {
+            "type": "path",
+            "url": "./packages/mintreu/laravel-table"
         }
 
     ]
