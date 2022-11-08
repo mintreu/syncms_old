@@ -1,19 +1,22 @@
+
+
+
+
 <x-layout::layout>
 
+{{--    <x-slot name="stylesheet">--}}
+{{--        <script src="https://cdn.tailwindcss.com"></script>--}}
+{{--    </x-slot>--}}
 
 
+{{--    <div class="h-screen"  x-data="{ leftMSidebar:false,darkMode:false,leftSidebar:true }" x-bind:class="{'dark': darkMode }" >--}}
+
+{{--        @livewire('panel::dashboard')--}}
 
 
-    <div class="flex justify-center items-center h-screen">
-
-        <img height="80px" width="60px" src="@img(storage/images.jpg)" alt="image file">
+{{--    </div>--}}
 
 
-        <h1 class="text-3xl text-purple-600 font-bold">Welcome</h1>
-
-        <img height="80px" width="60px" src="@img(storage/images.jpg)" alt="image file">
-    </div>
 
 
 </x-layout::layout>
-

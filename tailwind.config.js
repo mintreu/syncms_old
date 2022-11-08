@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        "./resources/**/*.blade.php",
-        "./resources/**/*.js",
-        "./resources/**/*.vue",
+        "./vendor/mintreu/**/*.blade.php",
+        "./resources/**/*.blade.php"
     ],
     theme: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/forms'),
+    ],
+    darkMode: 'class',
 }
