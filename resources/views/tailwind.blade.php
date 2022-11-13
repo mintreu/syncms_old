@@ -12,6 +12,12 @@
 
         <div class="bg-sky-300 text-dark">
             <h1 class="text-2xl text-center"> Tailwind Test</h1>
+
+            <a href="/" data-turbolinks="true" data-turbolinks-action="replace"> home</a>
+
+            <a href="/test" data-turbolinks="true" data-turbolinks-action="replace">Tailwind</a>
+
+
         </div>
 
         <div class="mx-auto p-2 text-center">
